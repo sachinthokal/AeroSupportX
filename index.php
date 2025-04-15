@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>CRM Project using PHP and MySQL</title>
+  <title>AeroSupportX</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Travel Ticket Booking SCRM - PHP</a>
+      <a class="navbar-brand" href="#">AeroSupportX</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -52,8 +52,8 @@
   <header class="masthead text-center text-white">
     <div class="masthead-content">
       <div class="container">
-        <h1 class="masthead-heading mb-0">Simple Customer Relationship Management System</h1>
-        <h2 class="masthead-subheading mb-0">Using PHP and MySQL Database</h2>
+        <h1 class="masthead-heading mb-0">AeroSupportX</h1>
+        <h2 class="masthead-subheading mb-0" style="font-size: 22px">Integrated Customer Relationship Management System For Enhanced Business Intelligence and Efficiency in Airplane Ticket Booking - Using PHP and MySQL Database</h2>
         <a href="registration.php" class="btn btn-primary btn-xl rounded-pill mt-5">User Signup</a>
       </div>
     </div>
@@ -62,10 +62,10 @@
 
   <!-- Footer -->
   <footer class="py-5">
-    <div class="container">
-      <p class="m-0 text-center text-white small">Copyright &copy; PHP - SCRMS <?= date("Y-m-d") ?></p>
+    <div class="container ftr">
+      <p class="m-0 text-center text-white small">Copyright &copy; AeroSupportX - SCRM <?= date("d-m-Y") ?></p>
     </div>
-    <!-- /.container -->
+    <!-- /. ftr -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
