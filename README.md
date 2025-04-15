@@ -16,5 +16,5 @@ Download and Install any local web server such as XAMPP. Download the provided s
 
 ## Admin Default Access: 
 
-Username: admin
-Password: admin123
+1.    Username: admin
+2.    Password: admin123
