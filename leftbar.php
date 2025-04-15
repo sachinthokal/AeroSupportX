@@ -5,7 +5,7 @@
       <div class="user-info-wrapper">
         <div class="profile-wrapper"> <img src="assets/img/user.png"  alt="" data-src="assets/img/user.png" data-src-retina="assets/img/user.png" width="69" height="69" /> </div>
         <div class="user-info">
-          <div class="greeting" style="font-size:14px;">Welcome</div>
+          <div class="greeting" style="font-size:15px;">USER PROFILE</div>
           <div class="username" style="font-size:12px;"><?php echo $_SESSION['name'];?></div>
           <div class="status" style="font-size:10px;"><a href="#">
             <div class="status-icon green"></div>

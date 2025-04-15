@@ -9,7 +9,8 @@ include("dbconnection.php");
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Dashboard </title>
+<title>AeroSupportX Dashboard</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -41,7 +42,7 @@ include("dbconnection.php");
     <div class="clearfix"></div>
     <div class="content">  
 		<div class="page-title">	
-			<h3>Dashboard</h3>	
+    <h3 class="text-white" style="font-size: 1.25rem; font-weight: 600;">DASHBOARD</h3>
             <div class="row 2col">
           <div class="col-md-6 col-sm-6 spacing-bottom-sm spacing-bottom">
             <div class="tiles blue added-margin">

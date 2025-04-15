@@ -7,14 +7,14 @@
           </a> </li>
       </ul>
       <h2>
-      <a href="dashboard.php" class="text-white"><strong>SCRM - PHP</strong></a>
+      <a href="dashboard.php" class="text-white"><strong>AeroSupportX</strong></a>
       </h2>
     </div>
     <div class="header-quick-nav" >
       <div class="ml-2 pull-left" style="padding-top: 0.5em;padding-left: 1em">
         
         <h4>
-        <a href="./admin/dashboard.php" class="text-reset"><strong>Simple Customer Relationship Management System - Customer Side</strong></a>
+        <a href="./admin/dashboard.php" class="text-reset"><strong>CUSTOMER RELATIONSHIP MANAGEMENT SYSTEM - CUSTOMER SIDE</strong></a>
         </h4>
         <ul class="nav quick-section">
           
@@ -27,7 +27,7 @@
             </a>
             <ul class="dropdown-menu  pull-right" role="menu" aria-labelledby="user-options">
               <li class="divider"></li>
-              <li><a href="logout.php"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Log Out</a></li>
+              <li><a href="logout.php"><i class="fa fa-power-off text-white"></i>&nbsp;&nbsp;Log Out</a></li>
             </ul>
           </li>
          

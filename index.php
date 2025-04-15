@@ -9,7 +9,8 @@
   <meta name="author" content="">
 
   <title>AeroSupportX</title>
-
+  <link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
+  
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 

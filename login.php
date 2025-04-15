@@ -46,9 +46,10 @@ exit();
 <!DOCTYPE html>
 <html>
 <head>
+<title>AeroSupportX Login</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -66,7 +67,7 @@ exit();
 <div class="container">
   <div class="row login-container">  
         <div class="col-md-5">
-          <h2 class="text-center text-white"><strong>Sign in to CRM</strong></h2>
+          <h2 class="text-center text-black"><strong>Sign in to AeroSupportX</strong></h2>
           <hr style="border-color:#ebe7e7">
           <p class="text-center">
             <a href="registration.php">Signup here</a> to create you account.</p>

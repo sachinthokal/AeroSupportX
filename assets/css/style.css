@@ -289,6 +289,7 @@ body.modal-open .chat-window-wrapper {
   -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform, opacity;
   transition-property: transform, opacity;
+  background-color: black;
 }
 .header .header-quick-nav input {
   height: 12px !important;
@@ -1240,7 +1241,13 @@ body.modal-open .chat-window-wrapper {
 .page-content {
   margin-top: 0px;
   padding: 0px;
-  background-color: #e5e9ec;
+  /* background-color: #e5e9ec; */
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 250px 45px;
+
   overflow: auto;
   position: relative;
   min-height: 100%;
@@ -1836,7 +1843,7 @@ h6.block {
 }
 a {
   text-shadow: none !important;
-  color: #0d638f;
+  color: white;
   transition: color 0.1s linear 0s, background-color 0.1s linear 0s, opacity 0.1s linear 0s !important;
 }
 a.icon:hover {
@@ -2910,19 +2917,35 @@ div.DTTT_print_info p {
   position: absolute;
 }
 .login-container {
-  margin-top: 13%;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding: 0px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #000;
+
+  /* 3D Border Style */
+  border: 2px solid #ccc;
+  border-radius: 12px;
+
+  /* Shadow Effect */
+  box-shadow: 
+    0 8px 16px rgba(0, 0, 0, 0.25), 
+    inset 0 0 5px rgba(255, 255, 255, 0.2);
+
+  /* Background and depth */
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  padding: 30px;
 }
+
+
 .lockscreen-wrapper {
   position: relative;
   margin-top: 20%;
 }
 .lockscreen-wrapper .profile-wrapper {
   border-radius: 100px;
-  float: left;
   height: 65px;
   margin-right: 11px;
   margin-top: 9px;
@@ -2936,7 +2959,6 @@ div.DTTT_print_info p {
 .lockscreen-wrapper .user-form {
   margin-top: -10px;
   display: inline-block;
-  float: left;
   min-width: 320px;
 }
 .lockscreen-wrapper .user-form input,

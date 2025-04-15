@@ -19,6 +19,7 @@
     position: relative !important;
     top: 0;
     width: auto !important;
+    background-color: lightslategrey;
 }
 
 .scroll-wrapper > .scroll-content::-webkit-scrollbar {

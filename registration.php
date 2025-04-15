@@ -27,6 +27,8 @@ echo "<script>window.location.href='login.php'</script>";
 <!DOCTYPE html>
 <html>
 <head>
+<title>AeroSupportX Registration</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
 <title>CRM | Registration</title>
@@ -57,14 +59,12 @@ return true;
 
 </head>
 <body class="error-body no-top">
-<div class="container">
+<div class="container">  
   <div class="login-container">  
         <div class="col-md-5">
-          <h2 class="text-center text-white"><strong>Create An Account</strong></h2>
+          <h2 class="text-center text-black"><strong>Create An Account</strong></h2>
           <hr style="border-color:#ebe7e7">
-              <p class="text-center"><a href="login.php">Login Here!</a> if you already have an account</p>
-
-		  
+              <p class="text-center text-black"><a href="login.php">Login Here !!</a> if you already have an account</p>
         </div>
         <div class="col-md-5 "> <br>
           <form id="signup" name="signup" class="login-form" onsubmit="return checkpass();" method="post">
@@ -86,7 +86,7 @@ return true;
             </div>
             <div class="form-group">
               <label for="phone" class="control-label">Contact Number</label>
-              <input type="text"  pattern="[0-9]{11}" class="form-control rounded-0" id="phone" name="phone" required="required">
+              <input type="text"  pattern="{11}" class="form-control rounded-0" id="phone" name="phone" required="required">
             </div>
             
             <div class="form-group">
