@@ -7,14 +7,14 @@
           </a> </li>
       </ul>
       <h2>
-      <a href="home.php" class="text-white"><strong>SCRM - PHP</strong></a>
+      <a href="home.php" class="text-white"><strong>AeroSupportX</strong></a>
       </h2>
     </div>
     <div class="header-quick-nav" >
       <div class="ml-2 pull-left" style="padding-top: 0.5em;padding-left: 1em">
         
         <h4>
-        <a href="./admin/home.php" class="text-reset"><strong>Simple Customer Relationship Management System - Admin Side</strong></a>
+        <a href="./admin/home.php" class="text-reset"><strong>CUSTOMER RELATIONSHIP MANAGEMENT SYSTEM - ADMIN SIDE</strong></a>
         </h4>
         <ul class="nav quick-section">
           

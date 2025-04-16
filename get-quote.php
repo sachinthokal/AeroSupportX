@@ -25,7 +25,8 @@ echo "<script>window.location.href='get-quote.php'</script>";
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Request Quote</title>
+<title>AeroSupportX - Request Quote</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -62,15 +63,15 @@ echo "<script>window.location.href='get-quote.php'</script>";
     <div class="clearfix"></div>
     <div class="content">  
 		<div class="page-title">	
-			<h3>Quote Request Form</h3>
+			<h3 style="color: whitesmoke">AeroSupportX Quote Request Form</h3>
              <div class="row">
                         <div class="col-md-12">
                             
                             <form class="form-horizontal" method="post" enctype="multipart/form-data">
                             <div class="panel panel-default">
                              
-                                <div class="panel-body">
-                                    <p>Please click below mention services of your interest to receive quotation for the same:</p>
+                                <div class="panel-body" >
+                                <p  style="color: whitesmoke">Please click below mention services of your interest to receive quotation for the same:</p>
                                 </div>
                                 <div class="panel-body bg-white">                                                                        
                                     
@@ -108,13 +109,25 @@ while($rw=mysqli_fetch_array($query)){
                                             
 <div class="form-group">
     <label class="col-md-3 text-left text-left control-label">Service Required :</label>
-    <div  class="col-md-9">   
-        <?php for($i = 1; $i <= 5; $i++): ?>
-        <div class="form-group">
-            <label class="check">
-            <input type="checkbox" class="icheckbox" name="services[]" value="Service/Support Needed 10<?= $i ?>"/> Service/Support Needed 10<?= $i ?></label>
-        </div>
-        <?php endfor ?>
+    <div class="col-md-9">
+        <?php 
+        $services = [
+            "Request Flight Schedule Change",
+            "Baggage Claim Assistance",
+            "Special Meal Request",
+            "Seat Upgrade Request",
+            "Wheelchair Assistance",
+            "Request for Refund",
+            "Request for Compensation",
+        ];
+
+        foreach ($services as $index => $service): ?>
+            <div class="form-group">
+                <label class="check">
+                    <input type="checkbox" class="icheckbox" name="services[]" value="<?= $service ?>"/> <?= $service ?>
+                </label>
+            </div>
+        <?php endforeach; ?>
     </div>
 </div>
         
@@ -139,7 +152,7 @@ while($rw=mysqli_fetch_array($query)){
                                                 <div class="col-md-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
-                                                        <input type="text" name="company" class="form-control datepicker" value="" required>                                            
+                                                        <input type="text" name="company" class="form-control datepicker" value="AeroSupportX" required>                                            
                                                     </div>
                                                    
                                                 </div>
@@ -147,15 +160,28 @@ while($rw=mysqli_fetch_array($query)){
                                        
                                             
                                             <div class="form-group">
-                                                <div class="col-md-9">  
-                                                <?php for($i = 6; $i <= 10; $i++): ?>
-                                                    <div class="form-group">
-                                                        <label class="check">
-                                                        <input type="checkbox" class="icheckbox" name="services[]" value="Service/Support Needed 10<?= $i ?>"/> Service/Support Needed 10<?= $i ?></label>
-                                                    </div>
-                                                    <?php endfor ?>
-                                                </div>
-                                            </div>
+    <div class="col-md-9">
+        <?php 
+        $services = [
+            "Flight Booking Request",
+            "Flight Cancellation Request",
+            "In-flight Wi-Fi Issue",
+            "Frequent Flyer Points Issue",
+            "Flight Change Request",
+            "Flight Delay Compensation Request",
+           "Other Requests",
+            
+        ];
+
+        foreach ($services as $index => $service): ?>
+            <div class="form-group">
+                <label class="check">
+                    <input type="checkbox" class="icheckbox" name="services[]" value="<?= $service ?>"/> <?= $service ?>
+                </label>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>
                                             
                                         </div>
                                         <div class="col-md-12">

@@ -36,7 +36,9 @@ echo "<script>alert('Ticket Genrated'); location.replace(document.referrer)</scr
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Create  ticket</title>
+<title>AeroSupportX - Create  ticket</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -73,7 +75,7 @@ echo "<script>alert('Ticket Genrated'); location.replace(document.referrer)</scr
     <div class="clearfix"></div>
     <div class="content">  
 		<div class="page-title">	
-			<h3>Create ticket</h3>
+			<h3 style="color: white;">CREATE TICKET</h3>
              <div class="row">
                         <div class="col-md-12">
                             
@@ -84,8 +86,8 @@ echo "<script>alert('Ticket Genrated'); location.replace(document.referrer)</scr
                                     <?php if(isset($_SESSION['msg1'])): ?>                                                                  
                                     <p align="center" style="color:#FF0000"><?=$_SESSION['msg1'];?><?=$_SESSION['msg1']="";?></p>
                                     <?php endif; ?>
-                                    <div class="form-group">                                        
-                                        <label class="col-md-3 col-xs-12 control-label">Subject</label>
+                                    <div class="form-group text-black">                                        
+                                        <label class="col-md-3 col-xs-12 control-label">Ticket Subject</label>
                                         <div class="col-md-6 col-xs-12">
                                             <div class="input-group">
                                                 <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
@@ -96,19 +98,24 @@ echo "<script>alert('Ticket Genrated'); location.replace(document.referrer)</scr
                                     </div>
 									
 									
-									 <div class="form-group">
-                                        <label class="col-md-3 col-xs-12 control-label">Task Type</label>
-                                        <div class="col-md-6 col-xs-12">                                                                                            
-                                            <select  name="tasktype" class="form-control select" required>
-                                                <?php for($i = 1; $i <= 5; $i++): ?>
-                                                <option>Option <?= $i ?></option>
-                                                <?php endfor; ?>
-                                            </select>
-                                           </div>
-                                    </div>
-									
-										 <div class="form-group">
-                                        <label class="col-md-3 col-xs-12 control-label">Priority</label>
+     <div class="form-group text-black">
+    <label class="col-md-3 col-xs-12 control-label">Ticket Type</label>
+    <div class="col-md-6 col-xs-12">                                                                                            
+        <select name="tasktype" class="form-control select" required>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Technical Issue">Technical Issue</option>
+            <option value="Billing Issue">Billing Issue</option>
+            <option value="Service Request">Service Request</option>
+            <option value="Complaint">Complaint</option>
+            <option value="Refund Request">Refund Request</option>
+            <option value="Feedback/Suggestion">Feedback/Suggestion</option>
+            <option value="Travel Assistance">Travel Assistance</option>
+            <option value="Account/Login Issue">Account/Login Issue</option>
+        </select>
+    </div>
+</div>
+										 <div class="form-group text-black">
+                                        <label class="col-md-3 col-xs-12 control-label">Ticket Priority</label>
                                         <div class="col-md-6 col-xs-12">                                                                                            
                                             <select name="priority" class="form-control select">
                                                 <option value="">Choose your Priority</option>
@@ -121,8 +128,8 @@ echo "<script>alert('Ticket Genrated'); location.replace(document.referrer)</scr
                                     </div>
 									
 									  
-                                    <div class="form-group">
-                                        <label class="col-md-3 col-xs-12 control-label">Description</label>
+                                    <div class="form-group text-black">
+                                        <label class="col-md-3 col-xs-12 control-label">Ticket Description</label>
                                         <div class="col-md-6 col-xs-12">                                            
                                             <textarea name="description" required class="form-control" rows="5"></textarea>
                                             

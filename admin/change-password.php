@@ -29,7 +29,8 @@ $_SESSION['msg1']="Old Password not match !!";
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Change Password</title>
+<title>AeroSupportX - Change Password</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -112,7 +113,7 @@ return true;
     <div class="clearfix"></div>
     <div class="content">  
 		<div class="page-title">	
-			<h3>Change Password</h3>	
+			<h3 class="text-white">Change Password</h3>	
             <div class="row">
                         <div class="col-md-12">
                             

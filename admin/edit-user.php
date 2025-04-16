@@ -24,7 +24,8 @@ $userid=$_GET['id'];
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Edit Profile </title>
+<title>AeroSupportX - Edit Profile </title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />

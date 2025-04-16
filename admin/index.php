@@ -29,7 +29,8 @@ exit();
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Admin Login</title>
+<title>AeroSupportX - Admin Login</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -44,10 +45,12 @@ exit();
 
 </head>
 <body class="error-body no-top">
+<div class="home_key"><a href="../dashboard.php"> <i class="icon-custom-home"></i> <span class="title text-black">Home</span> <span class="selected"></span>  </a> 
+
 <div class="container">
   <div class="login-container">  
         <div class="col-md-5">
-          <h2 class="text-center text-white"><strong>SCRMS - Admin Login Page</strong></h2>
+          <h2 class="text-center text-black"><strong>AeroSupportX  <br> <span style="font-size: large;">Admin Login </span></strong></h2>
           <hr>
         </div>
         <div class="col-md-5 "> 

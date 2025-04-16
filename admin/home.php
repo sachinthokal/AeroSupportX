@@ -9,7 +9,8 @@ check_login();
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Admin Dashboard</title>
+<title>AeroSupportX - Admin Dashboard</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -128,7 +129,7 @@ check_login();
 			<div class="tiles purple m-b-10">
               <div class="tiles-body">
 			  <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
-                <div class="tiles-title ">Quote Requests </div>
+                <div class="tiles-title ">Service Requests </div>
 			         <div class="widget-stats">
                       <div class="wrapper transparent"> 
                       <?php
@@ -166,7 +167,7 @@ check_login();
 			<div class="tiles red m-b-10">
               <div class="tiles-body">
 			  <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
-                <div class="tiles-title ">Tickets </div>
+                <div class="tiles-title ">Tickets Status </div>
 			         <div class="widget-stats">
                       <div class="wrapper transparent"> 
                       <?php $vt=mysqli_query($con,"select * from ticket");
@@ -212,7 +213,7 @@ check_login();
                     <div class="col-lg-12" style="min-height:280px;">
                         <div class="panel panel-red">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> All User Visit </h3>
+                                <h3 class="panel-title text-white"><i class="fa fa-long-arrow-right"></i> All User Visit </h3>
 								
 								<script type="text/javascript">
 								var visitorsCount = [];

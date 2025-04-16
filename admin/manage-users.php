@@ -9,7 +9,8 @@ check_login();
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>Admin | Manage Users</title>
+<title>AeroSupportX - Admin | Manage Users</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -47,16 +48,16 @@ check_login();
             <div class="content">
                 <ul class="breadcrumb">
                     <li>
-                        <p>YOU ARE HERE</p>
+                        <p class="text-white">YOU ARE HERE</p>
                     </li> 
-                    <li><a href="#" class="active">Manage Users</a>
+                    <li><a href="#" class="active text-white">Manage Users</a>
 
                     </li>
                 </ul>
                 <div class="page-title">	
-                    <i class="fa fa-users"></i>
+                    <i class="fa fa-users text-white"></i>
 
-                    	<h3>Manage Users </h3>	
+                    	<h3 class="text-white">Manage Users </h3>	
                 </div>
              
                 <div class="row">

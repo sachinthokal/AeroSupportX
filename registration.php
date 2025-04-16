@@ -27,11 +27,10 @@ echo "<script>window.location.href='login.php'</script>";
 <!DOCTYPE html>
 <html>
 <head>
-<title>AeroSupportX Registration</title>
+<title>AeroSupportX - Registration</title>
 <link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>CRM | Registration</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -59,12 +58,14 @@ return true;
 
 </head>
 <body class="error-body no-top">
+<div class="home_key"><a href="./dashboard.php"> <i class="icon-custom-home"></i> <span class="title text-black">Home</span> <span class="selected"></span>  </a> 
+</div>
 <div class="container">  
   <div class="login-container">  
         <div class="col-md-5">
           <h2 class="text-center text-black"><strong>Create An Account</strong></h2>
           <hr style="border-color:#ebe7e7">
-              <p class="text-center text-black"><a href="login.php">Login Here !!</a> if you already have an account</p>
+              <p class="text-center text-black"><a href="login.php" style="color: blue;">Login Here !!</a> if you already have an account</p>
         </div>
         <div class="col-md-5 "> <br>
           <form id="signup" name="signup" class="login-form" onsubmit="return checkpass();" method="post">

@@ -16,7 +16,8 @@ if(isset($_POST['remark']))
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>Admin | Quote Details</title>
+<title>AeroSupportX - Admin | Services Details</title>
+<link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -57,11 +58,11 @@ if(isset($_POST['remark']))
         <li>   
 			<p>Home<p>  					 							
         </li>     				 
-        <li><a href="#" class="active">Quote Details </a></li>                    
+        <li><a href="#" class="active">Services Details </a></li>                    
     </ul>
    	<div class="page-title">		
 		<i class="icon-custom-left"></i>
-		<h3>Quote Details</h3>	
+		<h3>Services Details</h3>	
 	</div>
  	<?php
     $ret=mysqli_query($con,"select * from prequest where id='".$_GET['id']."'");
@@ -73,7 +74,7 @@ if(isset($_POST['remark']))
 					<div class="col-md-12">
 						    <div class="grid simple vertical green">
 							<div class="grid-title no-border">
-								<h4><?php echo $row['name'];?>'s Quote <span class="semi-bold">Details</span></h4>
+								<h4><?php echo $row['name'];?>'s Services <span class="semi-bold">Details</span></h4>
 								<div class="tools">
 									<a href="javascript:;" class="collapse"></a>
 								</div>

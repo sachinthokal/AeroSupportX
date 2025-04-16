@@ -46,7 +46,7 @@ exit();
 <!DOCTYPE html>
 <html>
 <head>
-<title>AeroSupportX Login</title>
+<title>AeroSupportX - Login</title>
 <link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/airplane-mode-on.png">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
@@ -64,13 +64,15 @@ exit();
 
 </head>
 <body class="error-body no-top">
+<div class="home_key"><a href="./dashboard.php"> <i class="icon-custom-home"></i> <span class="title text-black">Home</span> <span class="selected"></span>  </a> 
+
 <div class="container">
   <div class="row login-container">  
         <div class="col-md-5">
           <h2 class="text-center text-black"><strong>Sign in to AeroSupportX</strong></h2>
           <hr style="border-color:#ebe7e7">
           <p class="text-center">
-            <a href="registration.php">Signup here</a> to create you account.</p>
+            <a href="registration.php" style="color: blue;">Click Here !!</a> to create you account.</p>
         </div>
         <div class="col-md-5 "> <br>
              <p style="color:#F00"><?php echo $_SESSION['action1'];?><?php echo $_SESSION['action1']="";?></p>
